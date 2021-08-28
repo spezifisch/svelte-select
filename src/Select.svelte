@@ -645,6 +645,8 @@
   onDestroy(() => {
     removeList();
   });
+
+  $: dispatch("focusChange", isFocused)
 </script>
 
 <style>
@@ -837,7 +839,8 @@
       {isDisabled}
       {multiFullItemClearable}
       on:multiItemClear={handleMultiItemClear}
-      on:focus={handleFocus} />
+      on:focus={handleFocus}
+      on:customEvent />
   {/if}
 
   {#if isDisabled}
