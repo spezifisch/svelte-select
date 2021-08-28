@@ -1,7 +1,14 @@
 {
-  "name": "svelte-select",
+  "name": "@spezifisch/svelte-select",
   "version": "3.17.0",
-  "repository": "https://rob-balfre@github.com/rob-balfre/svelte-select.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spezifisch/svelte-select"
+  },
+  "bugs": {
+    "url": "https://github.com/spezifisch/svelte-select/issues"
+  },
+  "homepage": "https://github.com/spezifisch/svelte-select#readme",
   "description": "A <Select> component for Svelte apps",
   "svelte": "src/Select.svelte",
   "module": "index.mjs",
