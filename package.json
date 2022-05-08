@@ -37,8 +37,7 @@
     "sirv": "^0.2.2",
     "svelte": "^3.31.0",
     "tap-diff": "^0.0.0",
-    "tap-dot": "^1.0.0",
-    "tape-modern": "^1.1.1"
+    "tape-modern": "^1.1.2"
   },
   "author": "rob-balfre",
   "license": "LIL",
