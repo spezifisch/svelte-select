@@ -212,7 +212,7 @@
 
   <VirtualList {items} {itemHeight} let:item let:i>
 
-    <div on:mouseover="{() => handleHover(i)}" on:click="{event => handleClick({item, i, event})}"
+    <div on:mouseover="{() => handleHover(i)}" on:focus="{() => handleHover(i)}" on:click="{event => handleClick({item, i, event})}"
         class="listItem">
           <svelte:component
             this="{Item}"
@@ -237,6 +237,7 @@
     { :else }
     <div
       on:mouseover="{() => handleHover(i)}"
+      on:focus="{() => handleHover(i)}"
       on:click="{event => handleClick({item, i, event})}"
       class="listItem"
     >
